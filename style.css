@@ -1,0 +1,49 @@
+button {
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  font-family: "Consolas";
+  border: none;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+button:hover {
+  color: red;
+  background-color: white;
+}
+
+body {
+  background-color: #01001f;
+}
+
+#score {
+  text-align: center;
+  font-family: "Consolas";
+  font-size: 30px;
+  color: white;
+}
+
+#gameover {
+  text-align: center;
+  font-family: "Consolas";
+  font-size: 30px;
+  color: red;
+}
+
+#gameCanvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+#info {
+  color: white;
+  font-family: "Consolas";
+  font-size: 20px;
+  text-align: center;
+}
